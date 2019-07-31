@@ -1,1 +1,5 @@
 w550xh356 img .organization-video
+ font-weight:  light(300)
+               regular(400)
+               bold(700)
+
