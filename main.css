@@ -169,14 +169,19 @@ nav a:hover {
 }
 
 .provide-features {
+   width: 50%;
+   /* display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column; */
+}
+
+.provide-features ul {
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
    align-items: center;
-   flex-direction: column;
-}
-
-.provide-features ul {
    list-style: none;
 }
 
