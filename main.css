@@ -29,7 +29,7 @@ body {
    font-weight: 700;
 }
 
-.section-margin-top-bottom__100px {
+.section-margin-top-bottom_100px {
    margin: 100px 0;
 }
 
@@ -41,7 +41,7 @@ body {
    margin-bottom: 40px;
 }
 
-.btn-margin-top__60px {
+.btn-margin-top_60px {
    margin-top: 60px;
 }
 
@@ -216,10 +216,15 @@ transition-timing-function: ease-in; */
 .gear-animation {
    transition: transform 0.8s cubic-bezier(0.6, -0.28, 0.735, 0.045);
    transition-timing-function: ease-in;
-   transform: rotate(360deg);
+   /* transform: rotate(360deg); */
 }
 
 .gear-animation:hover {
-   transform: rotate(360deg);
+   /* transform: rotate(360deg); */
    transform: translate(220px, 0);
+}
+
+hr {
+   color: lightgrey;
+
 }
