@@ -3,3 +3,23 @@ w550xh356 img .organization-video
                regular(400)
                bold(700)
 
+
+Аббревиатуры в vs code Emmet 
+
+section.feature>(div.feature-content>h2+p+hr)+div.feature-template>(ul.feature-template-selection>(li.feature-template-selection__item>p)*8)+ul.feature-template-imgs>(il.feature-template-imgs__item)*8
+
+
+70
+
+
+500*330
+
+200*200
+
+h80*w520px
+m20
+
+#6b6b6b
+
+
+750*447

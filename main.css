@@ -17,6 +17,12 @@ body {
 
 /*Universal Style*/
 
+hr {
+  color: #ececec;
+  margin: 0 auto;
+  margin: 0 125px;
+}
+
 .ft-weight_light {
   font-weight: 300;
 }
@@ -27,6 +33,15 @@ body {
 
 .ft-weight_bold {
   font-weight: 700;
+}
+
+.ft-weight_bold-italic {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.h-2-fs-40px {
+  font-size: 40px;
 }
 
 .section-margin-top-bottom_100px {
@@ -159,10 +174,6 @@ nav a:hover {
   padding: 0 80px 0 0;
 }
 
-.provide-text h2 {
-  font-size: 40px;
-}
-
 .provide-text .btn_xs {
   color: red;
   background-color: white;
@@ -220,6 +231,254 @@ transition-timing-function: ease-in; */
   transform: translate(220px, 0);
 }
 
-hr {
-  color: lightgrey;
+/* S3 */
+.feature-content {
+  text-align: center;
+}
+
+.feature-content p {
+  padding: 0 30%;
+  margin-bottom: 30px;
+}
+
+.feature-content h2 {
+  margin-top: 100px;
+}
+
+.feature-content hr {
+  width: 130px;
+  color: red;
+  margin: 0 auto;
+}
+
+.feature-template {
+  text-align: center;
+  margin-bottom: 200px;
+  margin-top: 90px;
+}
+
+.feature-template a {
+  text-decoration: none;
+  font-size: 22px;
+  margin: 0 30px;
+  margin-bottom: 70px;
+
+}
+
+.feature-template a:hover {
+  color: red;
+}
+
+.feature-template-imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.feature-template-imgs__item img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  background-color: #f5f0dd;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.team-meet hr {
+  width: 130px;
+  color: red;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.team-master-page {
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+}
+
+.team-master-img img {
+  width: 330px;
+  height: 500px;
+  background-color: #f5f0dd;
+}
+
+.team-master-content {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  margin-left: 50px;
+}
+
+.team-master-content h3 {
+  margin: 15px 0 40px 0;
+}
+
+.team-master-content ul {
+  list-style: none;
+}
+
+.team-master-content_direction-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.team-master-content_direction-row li {
+  margin-right: 30px;
+}
+
+.team-master-content_direction-row a {
+  text-decoration: none;
+}
+
+.team-master-content_direction-row a:hover {
+  color: coral;
+}
+
+.team-master-content__img {
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+}
+
+.team-master-content__img img {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  margin: 5px 10px;
+  background-color: #f5f0dd;
+}
+
+/* S5 */
+
+.desing-tips {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f5f0dd;
+  padding: 100px 0;
+  color: white;
+}
+
+.design-tips-form {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+.design-tips-form input {
+  width: 520px;
+  height: 55px;
+  border-radius: 5px;
+
+}
+
+.design-tips-form-btn button {
+  text-transform: uppercase;
+  margin-left: 20px;
+  color: white;
+  background-color: red;
+}
+
+/* S6 */
+
+.touch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.touch-content h2 {
+  text-transform: uppercase;
+}
+
+.touch-content hr {
+  width: 130px;
+  color: red;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.touch-content p {
+  width: 50%;
+}
+
+.content-2 {
+  margin-top: 75px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.content-2-form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+
+}
+
+.content-2-form textarea {
+  width: 750px;
+}
+
+
+.form-field input {
+  width: 340px;
+  height: 55px;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.form-field-ta textarea {
+  background-color: #e5e5e5;
+  border-radius: 5px;
+  border: 0px;
+  margin-top: 50px;
+}
+
+.form-margin-right_70px {
+  margin-right: 70px;
+}
+
+.content-2-form-btn {
+  width: 100%;
+  margin-top: 45px;
+}
+
+.content-2-form-btn button {
+  width: 100%;
+  height: 55px;
+  color: white;
+  background-color: red;
+}
+
+.contact-info {
+  width: 30%;
+  height: 447px;
+  color: #d5d5d5;
+  background-color: #2d2d2d;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+.contact-info p,
+.contact-info h3 {
+  margin-bottom: 10px;
+  margin-left: 50px;
 }
