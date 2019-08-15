@@ -15,10 +15,15 @@ body {
   color: #494848;
 }
 
+button {
+  cursor: pointer
+}
+
 /*Universal Style*/
 
 hr {
-  color: #ececec;
+  border: none;
+  border-bottom: 1px solid red;
   margin: 0 auto;
   margin: 0 125px;
 }
@@ -212,10 +217,10 @@ nav a:hover {
 
 /* TODO:  */
 /* Animation provide-features  */
-/* 
+/*
 transition: 0.8s;
 transition-timing-function: ease-in; */
-/* 
+/*
 .block {
    transition: transform 0.6s cubic-bezier(0.6, -0.28, 0.735, 0.045);
    } */
@@ -224,11 +229,11 @@ transition-timing-function: ease-in; */
   transition: transform 0.8s cubic-bezier(0.6, -0.28, 0.735, 0.045);
   transition-timing-function: ease-in;
   /* transform: rotate(360deg); */
+  transform-origin: center;
 }
 
-.gear-animation:hover {
-  /* transform: rotate(360deg); */
-  transform: translate(220px, 0);
+.provide-features__list-item:hover .gear-animation {
+  transform: translate(220px, 0) rotate(365deg);
 }
 
 /* S3 */
@@ -306,6 +311,7 @@ transition-timing-function: ease-in; */
   width: 330px;
   height: 500px;
   background-color: #f5f0dd;
+  display: block;
 }
 
 .team-master-content {
@@ -347,12 +353,22 @@ transition-timing-function: ease-in; */
   margin-top: 70px;
 }
 
+.team-master-content__img li {
+  padding: 0 10px;
+}
+
+.team-master-content__img li:first-child {
+  padding-left: 0;
+}
+.team-master-content__img li:last-child {
+  padding-right: 0;
+}
+
 .team-master-content__img img {
   display: flex;
   flex-direction: column;
   width: 200px;
   height: 200px;
-  margin: 5px 10px;
   background-color: #f5f0dd;
 }
 
@@ -440,14 +456,30 @@ transition-timing-function: ease-in; */
   height: 55px;
   background-color: #e5e5e5;
   border-radius: 5px;
-  border: 0px;
+  padding: 20px;
+  outline: none;
+  border: 1px solid transparent;
+
+  transition: all 330ms ease;
+}
+.form-field input:focus {
+  border: 1px solid gray;
+  background-color: #fff;
 }
 
+.form-field-ta {
+  width: 100%;
+}
 .form-field-ta textarea {
   background-color: #e5e5e5;
   border-radius: 5px;
   border: 0px;
   margin-top: 50px;
+  padding: 20px;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 300px;
+  min-height: 100px;
 }
 
 .form-margin-right_70px {
